@@ -1,0 +1,19 @@
+.publish {
+  position: relative;
+}
+
+.ant-upload-list {
+  .ant-upload-list-picture-card-container,
+  .ant-upload-select {
+    width: 146px;
+    height: 146px;
+  }
+}
+/*  如果样式不生效 先在调试工具中找到元素 
+然后在调试工具面板中写样式测试 写的样式生效 
+说明找对了元素 之后就可以在业务里写样式了 */
+.publish-quill {
+  .ql-editor {
+    min-height: 300px;
+  }
+}
